@@ -1,7 +1,13 @@
 <h1 align="center">Instagram Post Finder (IGPF)</h1>
 
 <h2>Disclaimer</h2>
-Instagram has gotten increasingly strict with scraping and using this library can result in getting flagged for botting AND POSSIBLE DISABLING OF YOUR INSTAGRAM ACCOUNT. This is a research project and I am not responsible for how you use it. Independently, the library is designed to be responsible and respectful and it is up to you to decide what you do with it. I don't claim any responsibility if your Instagram account is affected by how you use this library.
+IGPF doesn't belong or is related to the official Instagram application\website in any way; I developed it as an independent and unofficial application.<br>
+Responsibility for consequences of using this application remains with the user; I'm not responsible for how you use it.<br>
+Instagram has gotten increasingly strict with <a href="https://en.wikipedia.org/wiki/Web_scraping" target="_blank" rel="noopener noreferrer">scraping</a>; use the application responsibly and respectfully.
+
+<h2>What is it for?</h2>
+E' un'applicazione Android progettata per filtrare i post di un qualsiasi profilo Instagram pubblico per parola chiave. -> spiegare che cerco solo nella caption.
+Ad oggi (2023-03-xx) l'applicazione Instagram non ptermette di fare questo.
 
 <hr>
 <a href="https://github.com/LucaBarile/InstagramPostFinder/raw/main/IGPF.zip" target="_blank" rel="noopener noreferrer">Here</a> you can download the Android project.<br>

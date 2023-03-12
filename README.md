@@ -11,7 +11,7 @@ Ad oggi (2023-03-xx) l'applicazione Instagram non ptermette di fare questo.
 
 <hr>
 <a href="https://github.com/LucaBarile/InstagramPostFinder/raw/main/IGPF.zip" target="_blank" rel="noopener noreferrer">Here</a> you can download the Android project.<br>
-<a href="https://github.com/LucaBarile/InstagramPostFinder/raw/main/IGPF.apk" target="_blank" rel="noopener noreferrer">Here</a> you can download the Android APK.<br>
+<a href="https://github.com/LucaBarile/InstagramPostFinder/raw/main/IGPF.apk" target="_blank" rel="noopener noreferrer">Here</a> you can download the APK.<br>
 <a href="https://www.buymeacoffee.com/LucaBarile" target="_blank" rel="noopener noreferrer">Here</a> you can buy me a unicorn &#129412;
 <hr>
 <h5 align="right">Share the Knowledge!</h5>

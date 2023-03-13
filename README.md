@@ -36,16 +36,23 @@ If matches are found (listed as Instagram image <a href="https://elfsight.com/bl
 <h2>Demo</h2>
 Username of Instagram user with public profile: <a href="https://www.instagram.com/barol92/" target="_blank" rel="noopener noreferrer">barol92</a>.<br>
 Keyword: #budapest.<br>
-Expected result: IGPF will list all the links to the barol92's posts whose caption contains #budapest.
+Expected result: IGPF will list all the links to the barol92's posts whose caption contains #budapest.<br>
+[VIDEO]
+
+<h2>Instagram put a limit on the number of requests</h2>
+Whenever you want to search public posts of an Instagram user by keyword, IGPF makes several HTTP GET requests to Instagram, depending on the number of the posts that the user has published; the more there are, the more requests it must make.<br>
+If the requests do not come from a logged-in Instagram user (as in the case of IGPF, which doesn't require any login to Instagram (and consequently doesn't have any <a href="https://docs.oceanwp.org/article/487-how-to-get-instagram-access-token" target="_blank" rel="noopener noreferrer">Instagram Access Token</a>)), Instagram, after a certain number of requests, will <a href="https://www.combin.com/blog/action-blocked-on-instagram-what-triggers-and-how-to-get-rid-of-it-70d058a366c9/" target="_blank" rel="noopener noreferrer">temporarily block</a> the IP address where the requests come from.<br>
 
 
 
 
-. -> explain that I only search in the caption. As of today (2023-03-xx) the Instagram application does not stop doing this.
+<h2>The offline mode</h2>
+Risolve il problema del numero di richieste limitate...
+[VIDEO]
 
 
-E' un'applicazione Android progettata per filtrare i post di un qualsiasi profilo Instagram pubblico per parola chiave. -> spiegare che cerco solo nella caption.
-Ad oggi (2023-03-xx) l'applicazione Instagram non ptermette di fare questo.
+
+
 
 <h2>Download links</h2>
 <a href="https://github.com/LucaBarile/InstagramPostFinder/raw/main/IGPF.zip" target="_blank" rel="noopener noreferrer">Here</a> you can download the Android project.<br>

@@ -42,12 +42,12 @@ Expected result: IGPF will list all the links to the barol92's posts whose capti
 <h2>Instagram put a limit on the number of requests</h2>
 Whenever you want to search public posts of an Instagram user by keyword, IGPF makes several HTTP GET requests to Instagram, depending on the number of the posts that the user has published; the more there are, the more requests it must make.<br>
 If the requests do not come from a logged-in Instagram user (as in the case of IGPF, which doesn't require any login to Instagram (and consequently doesn't have any <a href="https://docs.oceanwp.org/article/487-how-to-get-instagram-access-token" target="_blank" rel="noopener noreferrer">Instagram Access Token</a>)), Instagram, after a certain number of requests, will <a href="https://www.combin.com/blog/action-blocked-on-instagram-what-triggers-and-how-to-get-rid-of-it-70d058a366c9/" target="_blank" rel="noopener noreferrer">temporarily block</a> the IP address where the requests come from.<br>
-
-
-
+Instagram typically unblocks the IP address within 24 hours (from tests I've done there doesn't seem to be an exact number of hours; it often changed from test to test), but it is possible to bypass the block. If your device is connected to the wireless network you can change its IP address by connecting it to the mobile network (and vice versa), as shown below.<br>
+[VIDEO]
 
 <h2>The offline mode</h2>
-Risolve il problema del numero di richieste limitate...
+Se mi bloccano anche con la rete mobile però sono nella merda....<br>
+La modalità offline risolve parzialmente il problema del numero di richieste limitate (spiega xkè) e consente di cercare i post anche quando non c'è alcuna connessione.<br>
 [VIDEO]
 
 

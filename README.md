@@ -6,6 +6,18 @@ Responsibility for consequences of using this application remains with the user;
 Instagram has gotten increasingly strict with <a href="https://en.wikipedia.org/wiki/Web_scraping" target="_blank" rel="noopener noreferrer">scraping</a>; use the application responsibly and respectfully.
 
 <h2>What is it for?</h2>
+It is an Android application designed to search <b>public</b> posts of an Instagram user by keyword.<br>
+Since, at the time of writing (2023-03-13), Instagram doesn't allow you to make public only some posts if you have a private account, <b>this application can only be used for public Instagram accounts</b>.<br>
+Once the Instagram username and the keyword have been entered, IGPF will list all of the user's posts whose caption contains the keyword.<br>
+If the keyword is contained in another word (e.g. keyword = <b>example</b> and word = counter<b>example</b>s), it will still be recognized.<br>
+Keyword searching is case insensitive (e.g. keyword = hello and word = HeLLo is equivalent to keyword = hello and word = hello).<br>
+The keyword can contain any symbol (therefore, for example, it can also be an hashtag), with the exception of spaces (otherwise you would be entering several keywords and not just one).
+
+<h2>Demo</h2>
+
+. -> explain that I only search in the caption. As of today (2023-03-xx) the Instagram application does not stop doing this.
+
+
 E' un'applicazione Android progettata per filtrare i post di un qualsiasi profilo Instagram pubblico per parola chiave. -> spiegare che cerco solo nella caption.
 Ad oggi (2023-03-xx) l'applicazione Instagram non ptermette di fare questo.
 

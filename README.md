@@ -9,6 +9,15 @@ Instagram has gotten increasingly strict with <a href="https://en.wikipedia.org/
 E' un'applicazione Android progettata per filtrare i post di un qualsiasi profilo Instagram pubblico per parola chiave. -> spiegare che cerco solo nella caption.
 Ad oggi (2023-03-xx) l'applicazione Instagram non ptermette di fare questo.
 
+<h2>Credits to</h2>
+<ul>
+  <li></li>
+  <li></li>
+  <li>The beta testers Fabio Scaravelli and Davide Barbieri.</li>
+  <a href="https://portale.fitet.org/images/atleti/612496.jpg" target="_blank" rel="noopener noreferrer">Here</a>
+  
+</ul>
+
 <hr>
 <a href="https://github.com/LucaBarile/InstagramPostFinder/raw/main/IGPF.zip" target="_blank" rel="noopener noreferrer">Here</a> you can download the Android project.<br>
 <a href="https://github.com/LucaBarile/InstagramPostFinder/raw/main/IGPF.apk" target="_blank" rel="noopener noreferrer">Here</a> you can download the APK.<br>

@@ -6,12 +6,12 @@ Responsibility for consequences of using this application remains with the user;
 Instagram has gotten increasingly strict with <a href="https://en.wikipedia.org/wiki/Web_scraping" target="_blank" rel="noopener noreferrer">scraping</a>; use the application responsibly and respectfully.
 
 <h2>Premise</h2>
-At the time of writing (2023-03-13) IGPF has been successfully tested but, as has already happened in the past, <b>Instagram may change its APIs again</b>, and IGPF may no longer work (or may work partially).<br>
+At the time of writing (2023-03-14) IGPF has been successfully tested but, as has already happened in the past, <b>Instagram may change its APIs again</b>, and it may no longer work (or may work partially).<br>
 If this were to happen, adapting the application to the new APIs shouldn't be very complicated, unless the changes made by Instagram were radical. The pieces of code to fix will probably be those that allow IGPF to get the user's JSON files from URL, and those related to their parsing.
 
 <h2>What is it for?</h2>
 It is an Android application designed to search <b>public</b> posts of an Instagram user by keyword, and you don't need to have an Instagram account to use it.<br>
-Since, at the time of writing (2023-03-13), Instagram doesn't allow its users to make public only some posts if they have a private account, <b>this application can only be used to search posts of a user who have a public Instagram account</b>.
+Since, at the time of writing, Instagram doesn't allow its users to make public only some posts if they have a private account, <b>this application can only be used to search posts of a user who have a public Instagram account</b>.
 
 <h2>How it works?</h2>
 Once the Instagram username and the keyword have been entered, IGPF will list all the links to the user's posts whose caption contains the keyword.<br>
@@ -51,7 +51,8 @@ La modalità offline risolve parzialmente il problema del numero di richieste li
 [VIDEO]
 
 
-
+<h2>The IGPF logic</h2>
+[FLOW_CHART]
 
 
 <h2>Download links</h2>

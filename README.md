@@ -14,7 +14,7 @@ Ad oggi (2023-03-xx) l'applicazione Instagram non ptermette di fare questo.
   <li></li>
   <li></li>
   <li>The beta testers Fabio Scaravelli and Davide Barbieri.</li>
-  <a href="https://portale.fitet.org/images/atleti/612496.jpg" target="_blank" rel="noopener noreferrer">Here</a>
+  <a href= [Opens in new tab](https://portale.fitet.org/images/atleti/612496.jpg) target="_blank" rel="noopener noreferrer">Here</a>
   
 </ul>
 

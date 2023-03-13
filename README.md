@@ -5,9 +5,15 @@ IGPF doesn't belong or is related to the official Instagram application\website 
 Responsibility for consequences of using this application remains with the user; I'm not responsible for how you use it.<br>
 Instagram has gotten increasingly strict with <a href="https://en.wikipedia.org/wiki/Web_scraping" target="_blank" rel="noopener noreferrer">scraping</a>; use the application responsibly and respectfully.
 
+<h2>Premise</h2>
+At the time of writing (2023-03-13) IGPF has been successfully tested but, as has already happened in the past, Instagram may change its APIs again, and IGPF may no longer work (or may work partially).<br>
+If this were to happen, adapting the application to the new APIs shouldn't be very complicated, unless the changes made by Instagram were radical. The pieces of code to fix will probably be those that allow IGPF to get the user's JSON files from URL, and those related to their parsing.
+
 <h2>What is it for?</h2>
 It is an Android application designed to search <b>public</b> posts of an Instagram user by keyword.<br>
-Since, at the time of writing (2023-03-13), Instagram doesn't allow you to make public only some posts if you have a private account, <b>this application can only be used for public Instagram accounts</b>.<br>
+Since, at the time of writing (2023-03-13), Instagram doesn't allow you to make public only some posts if you have a private account, <b>this application can only be used for public Instagram accounts</b>.
+
+<h2>How it works?</h2>
 Once the Instagram username and the keyword have been entered, IGPF will list all of the user's posts whose caption contains the keyword.<br>
 If the keyword is contained in another word (e.g. keyword = <b>example</b> and word = counter<b>example</b>s), it will still be recognized.<br>
 Keyword searching is case insensitive (e.g. keyword = hello and word = HeLLo is equivalent to keyword = hello and word = hello).<br>

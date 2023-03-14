@@ -38,19 +38,55 @@ Username of the Instagram user with public profile: <a href="https://www.instagr
 Keyword: #budapest.<br>
 Expected result: IGPF will list all the links to the barol92's posts whose caption contains #budapest.<br>
 <br>
-<img src="Demo/online.gif" align="center" alt="" title="IGPF is downloading the barol92 JSON files">
+<img src="Demo/online.gif" align="center" title="IGPF is downloading the barol92 JSON files">
 
 <h2>Instagram put a limit on the number of requests</h2>
 Whenever you want to search public posts of an Instagram user by keyword, IGPF makes several HTTP GET requests to Instagram, depending on the number of the posts that the user has published; the more there are, the more requests it must make.<br>
 If the requests do not come from a logged-in Instagram user (as in the case of IGPF, which doesn't require any login to Instagram (and consequently doesn't have any <a href="https://docs.oceanwp.org/article/487-how-to-get-instagram-access-token" target="_blank" rel="noopener noreferrer">Instagram Access Token</a>)), Instagram, after a certain number of requests, will <a href="https://www.combin.com/blog/action-blocked-on-instagram-what-triggers-and-how-to-get-rid-of-it-70d058a366c9/" target="_blank" rel="noopener noreferrer">temporarily block</a> the IP address where the requests come from.<br>
 Instagram typically unblocks the IP address within 24 hours (from tests I've done there doesn't seem to be an exact number of hours; it often changed from test to test), but it is possible to bypass the block. If your device is connected to the wireless network you can change its IP address by connecting it to the mobile network (and vice versa), as shown below.<br>
-[VIDEO]
+<br>
+<img src="Demo/ig_block_bypass.gif" align="center" title="Instagram block bypass">
 
 <h2>The offline mode</h2>
-Se mi bloccano anche con la rete mobile però sono nella merda....<br>
-La modalità offline risolve parzialmente il problema del numero di richieste limitate (spiega xkè) e consente di cercare i post anche quando non c'è alcuna connessione.<br>
-[VIDEO]
+IGPF saves user post data locally after downloading.<br>
+IGPF avoids re-downloading user's posts data if they have already been downloaded in the current day; searches for matches by directly analyzing the already downloaded data.<br>
+<br>
+IGPF only downloads the user's post data in the following two cases:
+<ol>
+  
+  <li>
+    The user's post data were never downloaded.
+  </li>
+  
+  <li>
+    The user's post data was downloaded at least a day ago (this means that the user may have published new posts that need to be analyzed). In this case the old data will be overwritten.
+  </li>
+  
+</ol>
 
+If the device can't connect to the Internet or an error occurs while downloading the user's post data, IGPF searches for matches analyzing the already downloaded data, even if they're not up to date (better than nothing... &#129335;).<br>
+<br>
+This way of proceeding has the following advantages:
+
+<ul>
+  
+  <li>
+    There's no need to wait for user's post data to download, so matches are found much faster.
+  </li>
+  
+  <li>
+    You can search for matches when your device is offline and view them when it's online.
+  </li>
+  
+  <li>
+    Instead of exhausting the maximum number of HTTP GET requests we can make to Instagram downloading the users post data that we already have, we can download the user's post data that we don't have yet.
+  </li>
+  
+</ul>
+
+The only case in which it will not be possible to find matches is when the device is not online and the user's post data were never downloaded (or in case there're no matches, of course...).<br>
+<br>
+<img src="Demo/offline.gif" align="center" title="IGPF loads the barol92 json files locally">
 
 <h2>The IGPF logic</h2>
 [FLOW_CHART]

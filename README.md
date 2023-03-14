@@ -91,6 +91,9 @@ The only case in which it will not be possible to find matches is when the devic
 <h2>The IGPF logic</h2>
 [FLOW_CHART]
 
+<h2>Easter egg</h2>
+IGPF contains an easter egg; find it! &#129370;
+Fiddle around with the graphical interface of the app to find it, and if you can't find it and want to give up, take a look at the code, I wrote a comment to locate it.
 
 <h2>Download links</h2>
 <a href="https://github.com/LucaBarile/InstagramPostFinder/raw/main/IGPF.zip" target="_blank" rel="noopener noreferrer">Here</a> you can download the Android project.<br>

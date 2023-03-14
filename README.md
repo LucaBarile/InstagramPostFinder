@@ -92,7 +92,7 @@ The only case in which it will not be possible to find matches is when the devic
 [FLOW_CHART]
 
 <h2>Easter egg</h2>
-IGPF contains an easter egg; find it! &#129370;
+IGPF contains an easter egg; find it! &#129370;<br>
 Fiddle around with the graphical interface of the app to find it, and if you can't find it and want to give up, take a look at the code, I wrote a comment to locate it.
 
 <h2>Download links</h2>

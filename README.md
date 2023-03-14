@@ -34,10 +34,11 @@ About the keyword:
 If matches are found (listed as Instagram image <a href="https://elfsight.com/blog/2015/10/how-to-get-instagram-photo-shortcode/" target="_blank" rel="noopener noreferrer">shortcodes</a>), just tap on one to view the matching post and its caption. The post will be shown through your device’s default browser (or through the Instagram app (if it's installed)).
 
 <h2>Demo</h2>
-Username of Instagram user with public profile: <a href="https://www.instagram.com/barol92/" target="_blank" rel="noopener noreferrer">barol92</a>.<br>
+Username of the Instagram user with public profile: <a href="https://www.instagram.com/barol92/" target="_blank" rel="noopener noreferrer">barol92</a>.<br>
 Keyword: #budapest.<br>
 Expected result: IGPF will list all the links to the barol92's posts whose caption contains #budapest.<br>
-[VIDEO]
+<br>
+<img src="Demo/online.gif" align="center" alt="" title="IGPF is downloading the barol92 JSON files">
 
 <h2>Instagram put a limit on the number of requests</h2>
 Whenever you want to search public posts of an Instagram user by keyword, IGPF makes several HTTP GET requests to Instagram, depending on the number of the posts that the user has published; the more there are, the more requests it must make.<br>
